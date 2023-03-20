@@ -1,0 +1,46 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 7em;
+}
+.weatherContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.weatherCard{
+    display:flex;
+    flex-direction: column;
+    background-color: #0000ff4d;
+    border: blue solid 2px;
+    border-radius: 10px;
+    padding:1em;
+    color:white;
+    margin:7em;
+    justify-content: space-between;
+}
+#weatherData p{
+    margin:1em;
+}
+
+input{
+    padding: .5em 0;
+    width: 100%;
+}
+button{
+    width: 100%;
+    padding: .2em;
+    margin: 1em 0;
+    background-color: #ffbb00;
+    border-radius: 5px;
+}
+
