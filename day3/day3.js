@@ -24,4 +24,10 @@ async function pokeDisplay(pokeName){
     </div>
     `
 }
-pokeDisplay('pikachu')
+
+const searchBtn = document.getElementById("searchBtn");
+searchBtn.addEventListener("click", () => {
+  const searchInput = document.getElementById("searchInput");
+  const pokeName = searchInput.value;
+  pokeDisplay(pokeName);
+});
